@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_above="@+id/back" >
+ 
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textStyle="italic"
+        android:text="You can signup as a teacher or guardian from one phone number.Then you can login through this number and the password you selected.After that you see a map where you can see the location of the people who are matched with the criteria you give in your addvertise as well as your own addvertise if you publish any advertise\n
+       In addvertise tab you can publish your addvertise with the criteria you prefer.You can give salary range,your institute name (if you are teacher),subject name that you want to teach(if you are teacher) or you want a teacher for this subject(if you are a guardian).Then you are requested to give addvertise in a preferable location from the map."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</ScrollView>
+
+    <Button
+        android:id="@+id/back"
+        style="@style/CustomStyleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="108dp"
+        android:text="Back" />
+
+
+</RelativeLayout>

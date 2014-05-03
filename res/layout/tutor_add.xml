@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/add">		
+    
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"               
+                android:layout_centerHorizontal="true"
+                android:text="to" 
+                android:textStyle="bold|italic"/>
+
+            <EditText
+                android:id="@+id/max"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/textView2"
+                android:ems="10"
+                android:hint="Max Salary"
+                android:inputType="number"
+                android:textStyle="bold|italic"
+                android:digits="0123456789" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/textView2"
+                android:ems="10"
+                android:hint="Min Salary"
+                android:inputType="number"                 
+                android:textStyle="bold|italic"
+                android:digits="0123456789" >
+
+                <requestFocus />
+
+
+            </EditText>
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView1"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold|italic" >
+                
+            </Spinner>
+
+            <EditText
+                android:id="@+id/inst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              	android:layout_below="@+id/spinner1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:hint="Educational Institute" 
+                android:layout_marginTop="20dp"
+                android:textStyle="bold|italic"/>
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/CustomStyleButton"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/inst"
+                android:text="Next" 
+                android:layout_marginTop="20dp"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Class" 
+                android:layout_below="@+id/min"
+                android:layout_marginTop="20dp"  
+                android:textStyle="bold|italic"/>
+            
+        </RelativeLayout>
+		
+</ScrollView>
+
+    

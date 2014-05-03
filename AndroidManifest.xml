@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.NASB.TuitionMedia"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    
+   
+    
+    <permission
+	    android:name="com.NASB.TuitionMedia.permission.MAPS_RECEIVE"
+	    android:protectionLevel="signature"/>
+	<uses-permission   
+	android:name="com.NASB.TuitionMedia.permission.MAPS_RECEIVE"/>
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+    
+    <!-- Permissions for Map -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission       
+		android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<uses-permission android:name="android.permission.CALL_PHONE" />
+    
+    <uses-feature
+    android:glEsVersion="0x00020000"
+    android:required="true"/>
+    
+    
+<!-- Permissions for Activity -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.NASB.TuitionMedia.LoginActivity"
+            android:label="@string/app_name" 
+            android:noHistory="true"
+            >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+           <activity android:name="com.NASB.TuitionMedia.TTab_Main"
+              />
+           <activity android:name="com.NASB.TuitionMedia.TMap" 
+               android:label="Map"/>  
+           <activity android:name="com.NASB.TuitionMedia.Tutor_Add" 
+               android:label="Advertise" /> 
+           <activity android:name="com.NASB.TuitionMedia.Tutor_Subject"
+               android:label="Select Subject"/>
+           <activity android:name="com.NASB.TuitionMedia.Tutor_Addmap" 
+               android:label="Select Location"/>
+           
+           <activity android:name="com.NASB.TuitionMedia.Signup"
+               android:label="Registeration"/>
+           <activity android:name="com.NASB.TuitionMedia.About"/>
+           
+           <activity android:name="com.NASB.TuitionMedia.Help"/>
+           
+           <activity android:name="com.NASB.TuitionMedia.All1"/>
+           <activity android:name="com.NASB.TuitionMedia.Test"/>
+           <activity android:name="com.NASB.TuitionMedia.Next"/>
+           
+           <activity android:name="com.NASB.TuitionMedia.GTab_Main"/>
+           <activity android:name="com.NASB.TuitionMedia.GMap" 
+               android:label="Map"/> 
+           <activity android:name="com.NASB.TuitionMedia.Guardian_ADD"
+                android:label="Advertise"/>
+           <activity android:name="com.NASB.TuitionMedia.Gurdian_Subject"
+               android:label="Select Subject"/>
+           <activity android:name="com.NASB.TuitionMedia.Guardian_Addmap"
+               android:label="Select Location" />
+           <activity android:name="com.NASB.TuitionMedia.ForgetPass"/>
+            <activity android:name="com.NASB.TuitionMedia.Otheractivity"/>
+            <activity android:name="com.NASB.TuitionMedia.Rating"/>
+           
+           
+           
+           
+        <!-- API key -->
+        	<meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+       		<meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyAUBMK4gJqubMD8HDiG64DtW5tIiG5Pp24" />
+        
+    </application>
+
+</manifest>
