@@ -1,0 +1,17 @@
+[1mdiff --git a/README.txt b/README.txt[m
+[1mindex 70ca461..ed7bacf 100644[m
+[1m--- a/README.txt[m
+[1m+++ b/README.txt[m
+[36m@@ -21,6 +21,9 @@[m [mWe need a lot of change yet on it . your idea must be taken . :)[m
+ [m
+ [m
+ [m
+[32m+[m
+ We are the student of MIST [m
+ [m
+[31m-Me and Sadi mohammad Zaman working on it [m
+\ No newline at end of file[m
+[32m+[m
+[32m+[m
+[32m+[m[32mMe and and Sadi mohammad Zaman working on it[m[41m [m
+\ No newline at end of file[m

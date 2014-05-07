@@ -13,7 +13,7 @@ both tutor and student can find appropiate tution by using this app
 @@@@@@@
 
 
-@@@
+@@@ok
 
 We need a lot of change yet on it . your idea must be taken . :) 
 
@@ -21,6 +21,9 @@ We need a lot of change yet on it . your idea must be taken . :)
 
 
 
+
 We are the student of MIST 
 
-Me and Sadi mohammad Zaman working on it 
+
+
+Me and and Sadi mohammad Zaman working on it 
